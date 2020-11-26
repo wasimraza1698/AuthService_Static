@@ -16,7 +16,8 @@ namespace AuthService.Repositories
             new User(){UserID = 4,UserName = "LM",Password = "123456"},
             new User(){UserID = 5,UserName = "KDB",Password = "123456"},
             new User(){UserID = 6,UserName = "Xavi",Password = "123456"},
-            new User(){UserID = 7,UserName = "Admin",Password = "Admin@123"}
+            new User(){UserID = 7,UserName = "Admin",Password = "Admin@123"},
+            new User(){UserID = 8,UserName = "User",Password = "User@123"}
         };
         public User Get(User user)
         {
