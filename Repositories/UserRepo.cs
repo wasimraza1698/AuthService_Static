@@ -8,7 +8,7 @@ namespace AuthService.Repositories
 {
     public class UserRepo : IUserRepo
     {
-        List<User> users = new List<User>()
+        private static List<User> users = new List<User>()
         {
             new User(){UserID = 1,UserName = "wasim1698",Password = "123456"},
             new User(){UserID = 2,UserName = "Raza",Password = "123456"},
